@@ -23,7 +23,11 @@ https://arnette110.github.io/Super-Awesome-JavaScript-Quiz/
 
 
 
-## Screenshot of project
+## Screenshots of project
+![landing-screenshot](https://user-images.githubusercontent.com/54122844/70854521-360ebb80-1e7a-11ea-88de-99749975f722.png)
+![questions-screenshot](https://user-images.githubusercontent.com/54122844/70854522-37d87f00-1e7a-11ea-92fd-1f3d4a3a8526.png)
+![high-scores-screenshot](https://user-images.githubusercontent.com/54122844/70854525-3909ac00-1e7a-11ea-9d63-9b31ade605c8.png)
+![end-screenshot](https://user-images.githubusercontent.com/54122844/70854526-3b6c0600-1e7a-11ea-984b-e8a90be291cc.png)
 
 
 ## Built With
