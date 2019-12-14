@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Quiz Game</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <div>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <div id="timer">
+                        <div id="counter">Timer: 0</div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div id="highscores">
+                        <button class="btn btn-primary" id="view-high-scores" btn-lg btn-block>
+                            View High Scores
+                        </button>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div id="reset">
+                        <button type="button" id="reset-btn" class="btn btn-primary" btn-lg btn-block>
+                            Reset
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div id="instructions" class="hide">
+
+            </div>
+            <div class="container">
+                <div id="scores-container" class="hide"></div>
+                <div id="questions-container" class="hide">
+                    <div id="question">Question</div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <button type="button" name="a" id="a" class="btn btn-primary" btn-lg btn-block>
+                            Answer 1
+                        </button>
+                        <button type="button" name="b" id="b" class="btn btn-primary" btn-lg btn-block>
+                            Answer 2
+                        </button>
+                        <button type="button" name="c" id="c" class="btn btn-primary" btn-lg btn-block>
+                            Answer 3
+                        </button>
+                        <button type="button" name="d" id="d" class="btn btn-primary" btn-lg btn-block>
+                            Answer 4
+                        </button>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="list-group">
+                        <button type="button" id="start-btn" class="list-group-item list-group-item-action">
+                            Start Quiz
+                        </button>
+                    </div>
+                </div>
+
+                <div id="end" class="hide">
+                    <div id="score">Your Score:</div>
+                    <div id="score-buttons" class="btn-grid">
+                        <input type="text" id="input" value="" placeholder="Please enter your initials" />
+                        <button type="button" id="save-btn" class="btn btn-primary" btn-lg btn-block>
+                            Save Score
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script src="js/script.js"></script>
+        <script src="js/questions.js"></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
