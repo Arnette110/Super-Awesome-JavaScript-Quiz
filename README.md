@@ -40,10 +40,10 @@ https://arnette110.github.io/Super-Awesome-JavaScript-Quiz/
 ## Credits
 
 * [w3schools] (https://www.w3schools.com/) - used for assistance with JavaScript and DOM manipulation
-* [getbootstrap](https://getbootstrap.com/) - used for various bootstrap styling
-* [mdbootstrap](https://mdbootstrap.com/) - used for various bootstrap styling
-* [codeexplained](https://www.codeexplained.org/2018/10/create-multiple-choice-quiz-using-javascript.html) - used for inspiration on initial inspiration for functionality and design
-* [youtube](https://www.youtube.com/watch?v=_LYxkClHnV0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5) - used for inspiration on initial inspiration for functionality and design
+* [getbootstrap] (https://getbootstrap.com/) - used for various bootstrap styling
+* [mdbootstrap] (https://mdbootstrap.com/) - used for various bootstrap styling
+* [codeexplained] (https://www.codeexplained.org/2018/10/create-multiple-choice-quiz-using-javascript.html) - used for inspiration on initial inspiration for functionality and design
+* [youtube] (https://www.youtube.com/watch?v=_LYxkClHnV0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5) - used for inspiration on initial inspiration for functionality and design
 
 
 ## License
